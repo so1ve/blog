@@ -11,16 +11,27 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: true
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.2.2
         with:
           hugo-version: '0.74.3'
           extended: true
+
+      - name: Use Node 13
+        uses: actions/setup-node@v1
+        with:
+          node-version: 13.x
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Build
         run: |
           git config --global core.quotePath false
           hugo --gc --minify --cleanDestinationDir
           gulp build
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.5.1
         env:
