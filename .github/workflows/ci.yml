@@ -1,0 +1,30 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.2.2
+        with:
+          hugo-version: '0.74.3'
+          extended: true
+      - name: Build
+        run: |
+          git config --global core.quotePath false
+          hugo --gc --minify --cleanDestinationDir
+          gulp build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v2.5.1
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.GITHUB_KEY }}
+          EXTERNAL_REPOSITORY: FFRaycoder/ffraycoder.github.io
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./public

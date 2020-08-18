@@ -1,0 +1,20 @@
+{{- $host := "" -}}
+{{- $redirect := "/goto/" -}}
+
+{{- $Content := .Scratch.Get "Content" -}}
+{{- $regex := printf `<a href="(https?://%s[^"]+)"` $host -}}
+{{- $temps := findRE $regex $Content | uniq -}}
+{{- with $temps -}}
+    {{- range . -}}
+        {{- $url := replaceRE $regex `$1` . -}}
+        {{- $replacement := printf `<a href="%s?url=%s"` $redirect ($url | base64Encode) -}}
+        {{- $Content := replace ($.Scratch.Get "Content") . $replacement | safeHTML |safeURL -}}
+        {{- $.Scratch.Set "Content" $Content -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $Content := .Scratch.Get "Content" -}}
+{{- $heimuregex := printf `<heimu>([^"]+)` -}}
+{{- $heimureplacement := printf `<heimu title="你知道得太多了">$1` -}}
+{{- $heimuContent := $Content | replaceRE $heimuregex $heimureplacement | safeHTML -}}
+{{- .Scratch.Set "Content" $heimuContent -}}

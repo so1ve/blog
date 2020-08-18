@@ -1,0 +1,43 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Ray's Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "git config --global core.quotePath false && hugo --gc --minify --cleanDestinationDir && gulp build",
+    "do": "npm i && hugo --gc --minify --cleanDestinationDir && gulp build",
+    "index": "hugo-lunr",
+    "algolia": "atomic-algolia"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FFRaycoder/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "hugo",
+    "hugo-theme-tony"
+  ],
+  "author": "Ray",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/FFRaycoder/blog/issues"
+  },
+  "homepage": "https://github.com/FFRaycoder/blog",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "hugo-search-index": "^0.5.0",
+    "ipfs-deploy": "^7.14.0",
+    "readable-stream": "^3.6.0",
+    "uglify-es": "^3.3.9",
+    "workbox-build": "^5.0.0"
+  },
+  "dependencies": {
+    "atomic-algolia": "^0.3.17"
+  }
+}

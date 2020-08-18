@@ -1,0 +1,36 @@
+[build]
+  publish = "public"
+  command = "npm run build"
+
+[build.environment]
+  HUGO_VERSION = "0.69.0"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Ray-Is = "The-Coolest"
+    Welcome-To = "Ray's Blog!!!"
+    server = "RRRAY'S SERVER"
+
+[[redirects]]
+  from = "https://rb.netlify.com/*"
+  to = "https://raycoder.me/:splat"
+  force = true
+
+[[redirects]]
+  from = "https://www.raycoder.me/p/how-to-read-google-currectly/"
+  to = "https://raycoder.me/p/how-to-read-google-correctly/"
+
+[[redirects]]
+  from = "/p/how-to-read-google-currectly/"
+  to = "/p/how-to-read-google-correctly"
+
+[[redirects]]
+  from = "/p/7040.html"
+  to = "/p/active-office365/"
+
+[[redirects]]
+  from = "/p/f88e.html"
+  to = "/p/cloudmusic-spider-artlist/"

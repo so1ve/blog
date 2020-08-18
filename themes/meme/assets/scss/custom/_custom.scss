@@ -1,0 +1,207 @@
+.next-note{position:relative;padding:15px;margin-bottom:20px;border:initial;border-left:3px solid #eee;background-color:#f9f9f9;border-radius:3px}.next-note h2,.next-note h3,.next-note h4,.next-note h5,.next-note h6{margin-top:3px;margin-bottom:0;border-bottom:initial;padding-top:0!important}.next-note blockquote:first-child,.next-note ol:first-child,.next-note p:first-child,.next-note pre:first-child,.next-note table:first-child,.next-note ul:first-child{margin-top:0}.next-note blockquote:last-child,.next-note ol:last-child,.next-note p:last-child,.next-note pre:last-child,.next-note table:last-child,.next-note ul:last-child{margin-bottom:0}.next-note:not(.no-icon){padding-left:45px}.next-note:not(.no-icon):before{position:absolute;font-family:FontAwesome;font-size:larger;top:13px;left:15px}.next-note.default{background-color:#f7f7f7;border-left-color:#777}.next-note.default h2,.next-note.default h3,.next-note.default h4,.next-note.default h5,.next-note.default h6{color:#777}.next-note.default:not(.no-icon):before{content:"\f0a9";color:#777}.next-note.primary{background-color:#f5f0fa;border-left-color:#6f42c1}.next-note.primary h2,.next-note.primary h3,.next-note.primary h4,.next-note.primary h5,.next-note.primary h6{color:#6f42c1}.next-note.primary:not(.no-icon):before{content:"\f055";color:#6f42c1}.next-note.info{background-color:#eef7fa;border-left-color:#428bca}.next-note.info h2,.next-note.info h3,.next-note.info h4,.next-note.info h5,.next-note.info h6{color:#428bca}.next-note.info:not(.no-icon):before{content:"\f05a";color:#428bca}.next-note.success{background-color:#eff8f0;border-left-color:#5cb85c}.next-note.success h2,.next-note.success h3,.next-note.success h4,.next-note.success h5,.next-note.success h6{color:#5cb85c}.next-note.success:not(.no-icon):before{content:"\f058";color:#5cb85c}.next-note.warning{background-color:#fdf8ea;border-left-color:#f0ad4e}.next-note.warning h2,.next-note.warning h3,.next-note.warning h4,.next-note.warning h5,.next-note.warning h6{color:#f0ad4e}.next-note.warning:not(.no-icon):before{content:"\f06a";color:#f0ad4e}.next-note.danger{background-color:#fcf1f2;border-left-color:#d9534f}.next-note.danger h2,.next-note.danger h3,.next-note.danger h4,.next-note.danger h5,.next-note.danger h6{color:#d9534f}.next-note.danger:not(.no-icon):before{content:"\f056";color:#d9534f}
+
+.friend-card-item {
+    width: 100%;
+    color: #4a4a4a;
+    padding: 1em 0;
+    display: inline-block;
+    border: 2px solid transparent;
+    border-bottom: 1px dashed var(--color-contrast-low);
+}
+
+.friend-card-item .text-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.friend-card-item .ava {
+    width: 5rem !important;
+    height: 5rem !important;
+    margin: 0 !important;
+    margin-right: 0.2em !important;
+    border-radius: 40px
+}
+
+.friend-card-item img {
+    float: left;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in
+}
+
+.friend-card-item img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg)
+}
+
+.friend-title-item {
+    font-weight: bold;
+    text-align: center
+}
+
+.links-content {
+    text-align: center
+}
+
+.friend-card-item:hover {
+	border-bottom-color: #eb5055;
+	transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .friend-card-item {
+        width:100% !important
+    }
+	.docsearch-form, .docsearch-input {
+		display: none;
+	}
+	.docsearch-form:before {
+		content: "站内搜索只在电脑上启用~";
+	}
+}
+
+.mermaid {
+    text-align: center;
+}
+
+.loading{display:none}
+.loading{height:100%;width:100%;position:fixed;top:0;left:0;z-index:999999;background-color:rgba(250,250,250,.9)}
+.loading img{width: 280px;height:210px;position: relative;top: 45%;left: 50%;margin-left:-140px;margin-top: -105px;}
+#loader{display: block; position: relative; left: 50%; top: 50%; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; border: 3px solid transparent; border-top-color: #ff5a5a; -webkit-animation: spin 1s linear infinite; animation: spin 1s linear infinite;}
+#loader:before{content: ""; position: absolute; top: 5px; left: 5px; right: 5px; bottom: 5px; border-radius: 50%; border: 3px solid transparent; border-top-color: #5af33f; -webkit-animation: spin 3s linear infinite; animation: spin 3s linear infinite;}
+#loader:after{content: ""; position: absolute; top: 15px; left: 15px; right: 15px; bottom: 15px; border-radius: 50%; border: 3px solid transparent; border-top-color: #6dc9ff; -webkit-animation: spin 2s linear infinite; animation: spin 2s linear infinite;}
+@-webkit-keyframes spin{0%{-webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg);} 100%{-webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg);}}
+@keyframes spin{0%{-webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg);} 100%{-webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg);}}
+
+red, p[red], span[red] {
+    color: #fe5f58;
+}
+
+blue, p[blue], span[blue] {
+    color: #2196f3;
+}
+
+yellow, p[yellow], span[yellow] {
+    color: #ffbd2b;
+}
+
+.valine {
+    padding-top: 5em;
+}
+
+heimu {
+    background-color: black;
+    transition: 0.25s;
+	color: black;
+}
+
+heimu:hover {
+    color: white;
+}
+
+.official-links {
+    text-align: center;
+}
+
+.echarts {
+    width: 100%;
+	height: 700px;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	position: relative;
+}
+
+img.emoji, img[title="emoji"], img[alt="emoji"] {
+	display: inline-block;
+    max-height: 32px;
+    margin: 0 2px;
+}
+
+/* .vpower {
+    display: none;
+} */
+
+#vcomments a {
+    color: #38b7ea;
+}
+
+.v {
+    padding-top: 5em;
+}
+
+.vemoji, .vemoticon-img {
+    max-height: 22px;
+    vertical-align: middle;
+    margin: 0 1px;
+    display: inline-block!important;
+}
+
+.dplayer {
+	height: 378px!important;
+}
+
+.vinput {
+	transition: 0.35s;
+}
+
+.v[data-class=v] .vwrap .vemojis {
+    max-height: 245px!important;
+}
+
+#veditor {
+    background: url(//cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/comment.webp) 100% 100% no-repeat;
+}
+
+.docsearch-input {
+    padding: 0 30px 0 15px;
+    line-height: 20px;
+    height: 20px!important;
+    -webkit-border-radius: 21px;
+    border-radius: 21px;
+    -webkit-appearance: textarea;
+    -webkit-appearance: textarea;
+    -moz-appearance: textarea;
+    appearance: textarea;
+    width: 120px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #565a5f;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    transition: 0.2s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto !important;
+    line-height: 1.6em;
+    outline: none !important;
+    background: none !important;
+    font: 14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+    border: 1px solid #bbbbbb !important;
+	padding: 0 0 0 10px;
+}
+
+.docsearch-input:focus {
+  border-color: #38b7ea !important;
+}
+
+.docsearch-form {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.ray-face{-webkit-animation:haha 5s infinite ease-in-out;animation:haha 5s infinite ease-in-out;display:inline-block;margin:0 5px;}@-webkit-keyframes haha{2%,24%,80%{-webkit-transform:translate(0,1.5px) rotate(1.5deg);transform:translate(0,1.5px) rotate(1.5deg);}4%,68%,98%{-webkit-transform:translate(0,-1.5px) rotate(-.5deg);transform:translate(0,-1.5px) rotate(-.5deg);}38%,6%{-webkit-transform:translate(0,1.5px) rotate(-1.5deg);transform:translate(0,1.5px) rotate(-1.5deg);}8%,86%{-webkit-transform:translate(0,-1.5px) rotate(-1.5deg);transform:translate(0,-1.5px) rotate(-1.5deg);}10%,72%{-webkit-transform:translate(0,2.5px) rotate(1.5deg);transform:translate(0,2.5px) rotate(1.5deg);}12%,64%,78%,96%{-webkit-transform:translate(0,-.5px) rotate(1.5deg);transform:translate(0,-.5px) rotate(1.5deg);}14%,54%{-webkit-transform:translate(0,-1.5px) rotate(1.5deg);transform:translate(0,-1.5px) rotate(1.5deg);}16%{-webkit-transform:translate(0,-.5px) rotate(-1.5deg);transform:translate(0,-.5px) rotate(-1.5deg);}18%,22%{-webkit-transform:translate(0,.5px) rotate(-1.5deg);transform:translate(0,.5px) rotate(-1.5deg);}20%,36%,46%{-webkit-transform:translate(0,-1.5px) rotate(2.5deg);transform:translate(0,-1.5px) rotate(2.5deg);}26%,50%{-webkit-transform:translate(0,.5px) rotate(.5deg);transform:translate(0,.5px) rotate(.5deg);}28%{-webkit-transform:translate(0,.5px) rotate(1.5deg);transform:translate(0,.5px) rotate(1.5deg);}30%,40%,62%,76%,88%{-webkit-transform:translate(0,-.5px) rotate(2.5deg);transform:translate(0,-.5px) rotate(2.5deg);}32%,34%,66%{-webkit-transform:translate(0,1.5px) rotate(-.5deg);transform:translate(0,1.5px) rotate(-.5deg);}42%{-webkit-transform:translate(0,2.5px) rotate(-1.5deg);transform:translate(0,2.5px) rotate(-1.5deg);}44%,70%{-webkit-transform:translate(0,1.5px) rotate(.5deg);transform:translate(0,1.5px) rotate(.5deg);}48%,74%,82%{-webkit-transform:translate(0,-.5px) rotate(.5deg);transform:translate(0,-.5px) rotate(.5deg);}52%,56%,60%{-webkit-transform:translate(0,2.5px) rotate(2.5deg);transform:translate(0,2.5px) rotate(2.5deg);}58%{-webkit-transform:translate(0,.5px) rotate(2.5deg);transform:translate(0,.5px) rotate(2.5deg);}84%{-webkit-transform:translate(0,1.5px) rotate(2.5deg);transform:translate(0,1.5px) rotate(2.5deg);}90%{-webkit-transform:translate(0,2.5px) rotate(-.5deg);transform:translate(0,2.5px) rotate(-.5deg);}92%{-webkit-transform:translate(0,.5px) rotate(-.5deg);transform:translate(0,.5px) rotate(-.5deg);}94%{-webkit-transform:translate(0,2.5px) rotate(.5deg);transform:translate(0,2.5px) rotate(.5deg);}0%,100%{-webkit-transform:translate(0,0) rotate(0);transform:translate(0,0) rotate(0);}}@keyframes haha{2%,24%,80%{-webkit-transform:translate(0,1.5px) rotate(1.5deg);transform:translate(0,1.5px) rotate(1.5deg);}4%,68%,98%{-webkit-transform:translate(0,-1.5px) rotate(-.5deg);transform:translate(0,-1.5px) rotate(-.5deg);}38%,6%{-webkit-transform:translate(0,1.5px) rotate(-1.5deg);transform:translate(0,1.5px) rotate(-1.5deg);}8%,86%{-webkit-transform:translate(0,-1.5px) rotate(-1.5deg);transform:translate(0,-1.5px) rotate(-1.5deg);}10%,72%{-webkit-transform:translate(0,2.5px) rotate(1.5deg);transform:translate(0,2.5px) rotate(1.5deg);}12%,64%,78%,96%{-webkit-transform:translate(0,-.5px) rotate(1.5deg);transform:translate(0,-.5px) rotate(1.5deg);}14%,54%{-webkit-transform:translate(0,-1.5px) rotate(1.5deg);transform:translate(0,-1.5px) rotate(1.5deg);}16%{-webkit-transform:translate(0,-.5px) rotate(-1.5deg);transform:translate(0,-.5px) rotate(-1.5deg);}18%,22%{-webkit-transform:translate(0,.5px) rotate(-1.5deg);transform:translate(0,.5px) rotate(-1.5deg);}20%,36%,46%{-webkit-transform:translate(0,-1.5px) rotate(2.5deg);transform:translate(0,-1.5px) rotate(2.5deg);}26%,50%{-webkit-transform:translate(0,.5px) rotate(.5deg);transform:translate(0,.5px) rotate(.5deg);}28%{-webkit-transform:translate(0,.5px) rotate(1.5deg);transform:translate(0,.5px) rotate(1.5deg);}30%,40%,62%,76%,88%{-webkit-transform:translate(0,-.5px) rotate(2.5deg);transform:translate(0,-.5px) rotate(2.5deg);}32%,34%,66%{-webkit-transform:translate(0,1.5px) rotate(-.5deg);transform:translate(0,1.5px) rotate(-.5deg);}42%{-webkit-transform:translate(0,2.5px) rotate(-1.5deg);transform:translate(0,2.5px) rotate(-1.5deg);}44%,70%{-webkit-transform:translate(0,1.5px) rotate(.5deg);transform:translate(0,1.5px) rotate(.5deg);}48%,74%,82%{-webkit-transform:translate(0,-.5px) rotate(.5deg);transform:translate(0,-.5px) rotate(.5deg);}52%,56%,60%{-webkit-transform:translate(0,2.5px) rotate(2.5deg);transform:translate(0,2.5px) rotate(2.5deg);}58%{-webkit-transform:translate(0,.5px) rotate(2.5deg);transform:translate(0,.5px) rotate(2.5deg);}84%{-webkit-transform:translate(0,1.5px) rotate(2.5deg);transform:translate(0,1.5px) rotate(2.5deg);}90%{-webkit-transform:translate(0,2.5px) rotate(-.5deg);transform:translate(0,2.5px) rotate(-.5deg);}92%{-webkit-transform:translate(0,.5px) rotate(-.5deg);transform:translate(0,.5px) rotate(-.5deg);}94%{-webkit-transform:translate(0,2.5px) rotate(.5deg);transform:translate(0,2.5px) rotate(.5deg);}0%,100%{-webkit-transform:translate(0,0) rotate(0);transform:translate(0,0) rotate(0);}}
+
+.algolia-docsearch-footer {
+    display: none;
+}
+
+.vemoji-out-list {
+    max-width: 50px!important;
+}

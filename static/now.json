@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "handle": "filesystem" },
+	{ "src": "/(.*)", "status": 404, "dest": "/404.html" },
+    { "src": "/p/f88e.html", "dest": "/p/cloudmusic-spider-artlist/" },
+	{ "src": "/p/f88e.html", "dest": "/p/actice-office365/" }
+  ]
+}

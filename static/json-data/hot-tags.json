@@ -1,0 +1,36 @@
+    [{
+        "tag": "Python学习笔记",
+        "url": "/tags/python学习笔记/",
+        "class": "is-danger"
+    },
+    {
+        "tag": "爬虫",
+        "url": "/tags/爬虫/",
+        "class": "is-success"
+    },
+    {
+        "tag": "破解",
+        "url": "/tags/破解/",
+        "class": "is-danger"
+    },
+	{
+        "tag": "Python学习笔记",
+        "url": "/categories/python学习笔记/",
+        "class": "is-warning"
+    },
+	{
+        "tag": "SEO",
+        "url": "/tags/seo/",
+        "class": "is-success"
+    },
+    {
+        "tag": "更多标签",
+        "url": "/tags/",
+        "class": "is-white"
+    },
+	{
+        "tag": "更多分类",
+        "url": "/categories/",
+        "class": "is-white"
+    }
+]

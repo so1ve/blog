@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /css/
+Disallow: /404.html
+Disallow: /cur/
+Disallow: /fonts/
+Disallow: /goto/
+Disallow: /icons/
+Disallow: /images/
+Disallow: /js/
+Disallow: /json-data/
+Disallow: /link-images/
+Sitemap: https://raycoder.me/sitemap.xml
+

@@ -1,0 +1,8 @@
+public/
+node_modules/
+deploy.bat
+deploy.vbe
+hugodeploy.pyw
+resources
+.DS_Store
+Thumbs.db
