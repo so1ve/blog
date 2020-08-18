@@ -35,7 +35,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.5.1
         env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }
+          ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
           EXTERNAL_REPOSITORY: FFRaycoder/ffraycoder.github.io
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./public
