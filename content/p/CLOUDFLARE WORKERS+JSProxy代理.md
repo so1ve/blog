@@ -21,7 +21,7 @@ draft: false
 
 首先我们需要一个Cloudflare账号，自己注册，再把你的域名`NS`服务器换成CF给你的。0然后点击上面贴出的workers地址，点击"Start Building"，按照流程配置好。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200402170525.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200402170525.png)
 
 然后会跳转到你的控制台界面，点进去，选择`Workers`：
 
@@ -334,7 +334,7 @@ async function parseYtVideoRedir(urlObj, newLen, res) {
 
 自定义域名，先把一个子域名CNAME到分配的域名，然后选择`Add ruote`。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200402172046.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200402172046.png)
 
 这里我想要把我的域名解析到`rb`这个Worker，我就填写`https://raycoder.me/*`，选择`rb`这个Worker，保存。
 

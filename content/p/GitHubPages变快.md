@@ -17,7 +17,7 @@ draft: false
 
 昨天上午又去看了看，Pages可以正常访问了。阿，怎么感觉变快了？
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200409094422.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200409094422.png)
 
 众所周知GitHub采用的Fastly CDN，估计前天是增加国内节点去了。
 

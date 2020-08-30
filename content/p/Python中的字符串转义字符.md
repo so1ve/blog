@@ -48,5 +48,5 @@ draft: false
 
 注意看截图：
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200324143731.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200324143731.png)
 

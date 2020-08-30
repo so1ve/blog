@@ -10,7 +10,7 @@ draft: false
 
 最近升级了电脑系统，打开Chrome崩溃了。
 
-![喔唷，崩溃啦](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200318090837.png "喔唷，崩溃啦")
+![喔唷，崩溃啦](https://gitee.com/RACD/cdn/raw/master/imgs/20200318090837.png "喔唷，崩溃啦")
 
 网络上的一些解决方法：在打开的快捷方式后添加` --test-type --no-sandbox`，禁用沙盒。
 

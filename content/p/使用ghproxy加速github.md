@@ -22,7 +22,7 @@ gitinfo: true
 
 GitHub由于仓库部署在国外，天朝的强大阻断了数据传输<heimu>二</heimu>，GitHub上面的项目Clone速度是真的惨不忍睹
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200423084605.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200423084605.png)
 
 当然也有人说，Gitee复制一下仓库，Clone下来再改配置不就行了吗？
 

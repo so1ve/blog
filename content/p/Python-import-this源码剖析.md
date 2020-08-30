@@ -24,7 +24,7 @@ buyButtonText: ""
 
 <!--more-->
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200729200602.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200729200602.png)
 
 但是，这个彩蛋的源代码在哪里呢🤔
 

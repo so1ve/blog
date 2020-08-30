@@ -20,13 +20,13 @@ gitinfo: true
 
 最近在GitHub上面发现了一个很有趣的项目，名叫[`Mirror`](https://github.com/LoeiFy/Mirror)，官方Demo在这里：<https://mirror.am0200.com/>
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200422081818.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200422081818.png)
 
 哎哟我艹，貌似有那么一丢丢好康，但是这个release就有点过粪了吧？
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200422083906.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200422083906.png)
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200422083923.jpg)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200422083923.jpg)
 
 这个绝对是我见过最简单的博客了，使用动态路由分发视图，单页面应用。
 
@@ -49,7 +49,7 @@ I了I了~
 
 像这样。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200422084440.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200422084440.png)
 
 添加 token 说明，然后点击 `Generate token`，就可以获得你的 token。要记得保存。
 
@@ -66,7 +66,7 @@ I了I了~
 3. 打开 [Mirror](https://mirror.am0200.com/) 网站，并打开 `开发者工具` 界面
 4. 在开发者工具的 `console` tab 页面，输入 js 代码 `window.encrypt('你的token', '你的主域名')`，注意不要写协议头，`www`是敏感的。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200422084655.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200422084655.png)
 
 得到的字符就是 `hash` 串。
 

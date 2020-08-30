@@ -4,7 +4,6 @@
   "description": "Ray's Blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "git config --global core.quotePath false && hugo --gc --minify --cleanDestinationDir && gulp build",
     "do": "npm i && hugo --gc --minify --cleanDestinationDir && gulp build",
     "index": "hugo-lunr",

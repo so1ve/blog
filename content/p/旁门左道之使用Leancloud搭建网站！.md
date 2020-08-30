@@ -22,16 +22,16 @@ Leancloud也可以搭建网站？
 
 首先先创建一个应用，选择开发版~自己整罢！
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200331135141.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200331135141.png)
 
 然后选择`<你创建的应用>-->云引擎-->设置`，在`源码部署-->代码库`里填写你的Git仓库。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200331134820.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200331134820.png)
 
 当然，不要忘记填写Web主机域名——这个是我们之后预览网页用的！
 
 然后选择`部署`，再点击`Git源码部署`！（假如你有能力，也可以选择命令行部署，使用Webhook自动部署）
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200331135315.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200331135315.png)
 
 然后，打开你填写的Web主机域名，享用吧！

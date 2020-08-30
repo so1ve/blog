@@ -132,7 +132,7 @@ export default {
 如是，一个`input`的代码被分散到了许多选项中：`data`，`methods`，`computed`，`watch`，如Vue官方图：
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200719190119.png" style="width:131px">
+<img src="https://gitee.com/RACD/cdn/raw/master/imgs/20200719190119.png" style="width:131px">
 </p>
 
 Vue官方示例如下：
@@ -169,7 +169,7 @@ function useCreateFolder (openFolder) {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200719191506.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200719191506.png)
 
 ---
 

@@ -93,13 +93,13 @@ addEventListener('fetch', async event => {
 
   就是`ZoneID`，打开某域名页面，然后下滑看右下角。
 
-  ![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200423094847.png)
+  ![](https://gitee.com/RACD/cdn/raw/master/imgs/20200423094847.png)
 
 - `token`
 
   去API页面（点击右上角头像选择my profile，再选择api tokens，最后点击create token）新建一个token
 
-  ![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200423094942.png)
+  ![](https://gitee.com/RACD/cdn/raw/master/imgs/20200423094942.png)
 
   我们仅需要给指定zone的analytics的Read权限，就足够了。
 

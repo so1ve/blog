@@ -130,4 +130,3 @@ draft: false
 ### 上传之后默认复制链接，直接粘贴到你的markdown编辑器里，就可以愉快的进行写作了！
 
 原文：[https://www.jianshu.com/p/b69950a49ae2](https://www.jianshu.com/p/b69950a49ae2)
-~~（博主：我已经用上了！）~~

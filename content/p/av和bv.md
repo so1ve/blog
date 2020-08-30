@@ -116,7 +116,7 @@ UPD：之前的代码中，所有数位都被用到是乱凑的，实际上并�
 
 事实上，如果不采用后端，直接浏览器控制台输入`aid`，`bvid`也是可以的：
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200331165001.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200331165001.png)
 
 附转换器：
 

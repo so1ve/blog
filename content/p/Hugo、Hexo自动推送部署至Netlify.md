@@ -20,7 +20,7 @@ draft: false
 
 不过在看了[reuixiy大佬的博客](https://io-oi.me/)后，才发现他有一个`Edit Me`：
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200324085718.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200324085718.png)
 
 点击后发现可以`Fork`这个`Markdown`文件来修改。
 
@@ -28,7 +28,7 @@ draft: false
 
 果然是我太嫩了
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200324085950.gif)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200324085950.gif)
 
 研究了下人家的[博客Repo](https://github.com/reuixiy/io-oi.me)
 
@@ -129,7 +129,7 @@ Hexo倒要比Hugo简单：Hexo的`node_moudles`会在执行Hexo命令时自动�
 
 修改你的`Deploy Settings`，更改成如图：
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200325075659.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200325075659.png)
 
 只需你推送博客源码，Netlify就会{{< udpoint "自动帮你部署博客" >}}！！！太贴心了吧~
 
@@ -143,7 +143,7 @@ Hexo倒要比Hugo简单：Hexo的`node_moudles`会在执行Hexo命令时自动�
 
 赶快入坑~
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200325081213.gif)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200325081213.gif)
 
 ---
 

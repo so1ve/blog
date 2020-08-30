@@ -31,7 +31,7 @@ paginate = 15
     # 座右铭或简介
     motto = "夜晚再黑，也压不过雪的白。"
     # 头像
-    avatar = "https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200509175006.png"
+    avatar = "https://gitee.com/RACD/cdn/raw/master/imgs/20200509175006.png"
     # 网站（默认值：baseURL）
     website = "https://themetony.github.io/hugo-theme-tony/"
     # GitHub
@@ -173,7 +173,7 @@ paginate = 15
     # 站点信息
 
     # 站点的 LOGO
-    siteLogo = "https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200509175026.png"
+    siteLogo = "https://gitee.com/RACD/cdn/raw/master/imgs/20200509175026.png"
 
     # 站点描述
     siteDescription = "Ray's Blog-夜晚再黑，也压不过雪的白！"

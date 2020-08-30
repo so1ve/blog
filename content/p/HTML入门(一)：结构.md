@@ -19,13 +19,13 @@ draft: false
 
 任何文档中标题和子标题都反映出信息的层次性。标题后面可能跟着文档简介或是文档中最重要的信息。下面是一个Word文档示例。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200407085907.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200407085907.png)
 
 从这里我们理解到了Word文档中结构的运用对理解文档的帮助，编写网页的时候，道理是一样的。
 
 ### HTML文档的结构
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200407090301.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200407090301.png)
 
 #### HTML使用元素描述结构
 

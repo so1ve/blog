@@ -13,18 +13,18 @@ draft: false
 毕竟博主也是要上课的,QwQ。
 最近终于抽出一些时间了，研究研究QQ音乐的爬虫。
 我们随便打开一个歌单(<https://y.qq.com/n/yqq/playlist/6809716883.html>)，登录自己的QQ：
-![https://y.qq.com/n/yqq/playlist/6809716883.html](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200316130255.png "https://y.qq.com/n/yqq/playlist/6809716883.html")
-？QQ音乐竟然还对网页端做限制！![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200316130506.png)
+![https://y.qq.com/n/yqq/playlist/6809716883.html](https://gitee.com/RACD/cdn/raw/master/imgs/20200316130255.png "https://y.qq.com/n/yqq/playlist/6809716883.html")
+？QQ音乐竟然还对网页端做限制！![](https://gitee.com/RACD/cdn/raw/master/imgs/20200316130506.png)
 根据我多年的前(摸)端(爬)开(滚)发(打)经验，这种网站一定是通过`JS`做限制，并且在浏览器的`Network`中一定会有相关的数据。
 我们先打开一个音乐链接(<https://y.qq.com/n/yqq/song/004WKx9W0E7skj.html> ==> 播放)：
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200316130739.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200316130739.png)
 发现所有的音乐最后都指向<https://y.qq.com/portal/player.html>这个网址。所以我们可以做如下判断：这个东西是通过传`Cookie`来播放音乐的，所以它的`Network`中绝对会有相应的`音乐文件`    。
 果不其然，里边有一个如下的链接：
 `https://isure.stream.qqmusic.qq.com/C400003jblv923cckE.m4a?guid=2092345306&vkey=0C2C0214E13FDAA60DF4560C8CAFB591C5C8D31854F25B79A59E07FE292AFF133E2B053C4A96C190ACA1582BD0476710ECCF87F6826D15A2&uin=4354&fromtag=66`
 经过观察，发现它的格式如下：
 `https://isure.stream.qqmusic.qq.com/C400<MID>.m4a?guid=<GUID>&vkey=<VKEY>&uin=4354&fromtag=66`，`uin`和`fromtag`是不变的。
 所以我们再返回歌单页，打开控制台，找到了如下文件：
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200316130803.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200316130803.png)
 好的，我们通过观察，发现这是一个格式类似于如下的文件：
 
 ```json

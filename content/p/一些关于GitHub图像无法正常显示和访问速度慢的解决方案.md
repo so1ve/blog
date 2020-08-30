@@ -12,7 +12,7 @@ draft: false
 
 网上一般流传的Hosts已经不好使了，如下：
 
-```bash
+```
 # GitHub Start
 192.30.253.112 github.com
 192.30.253.118 gist.github.com

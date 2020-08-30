@@ -27,21 +27,21 @@ Backblaze前10 GB的存储空间是免费的，每天能下载1G以内文件免�
 
 新建一个桶，随便取个名。注意要选`Public（公众）`！~~这LAG机器翻译~~
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200319081732.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200319081732.png)
 
 创建完之后，随便上传一个文件。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200319082134.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200319082134.png)
 
 俺们就发现它给我们分配了一个`https://f000.backblazeb2.com`的域名。
 
 我们自己在`Cloudflare`挂一个域名，一定要开启CDN：
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200319082633.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200319082633.png)
 
 如果你觉得域名太长，可以设置一个`Page Rule`：
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200319082751.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200319082751.png)
 
 不过只能`http`跳`https`，可惜了。
 

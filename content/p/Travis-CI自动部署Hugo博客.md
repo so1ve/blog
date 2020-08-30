@@ -29,11 +29,11 @@ draft: false
 
 我们得先获取一个[`Personal access token`](https://github.com/settings/tokens)，用于给Travis CI访问仓库的权限。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200409132636.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200409132636.png)
 
 点击之后，只需要勾选`repo:status`、` repo_deployment`和`public_repo`三项即可，这样即使令牌被盗，也可以最大的减少损失。Note处是可选的，不需要填写，只是起分辨作用。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200409133232.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200409133232.png)
 
 
 

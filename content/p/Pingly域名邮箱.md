@@ -14,11 +14,11 @@ draft: false
 
 ### Step 1.打开[Pingly](https:/pingly.com/signup)，注册一个账号。（已有账号的点击[登录](https://pingly.com/login)）
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200401131540.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200401131540.png)
 
 ### Step 2.登录/注册完后按照系统的提示设置域名的TXT、CNAME及MX转发，设置成功后点击Verify（可能要一段时间）
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200401131541.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200401131541.png)
 
 ### Step 3.然后打开你注册时的邮箱，点击其中的链接进行账号的验证
 

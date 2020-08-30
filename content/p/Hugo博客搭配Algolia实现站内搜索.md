@@ -34,15 +34,15 @@ Algolia的站内搜索实现也很简单，一起看看罢！
 
 ###### 打开[Algolia](https://www.algolia.com)创建应用，自取名字(比如说blog)，注册这里便不再赘述
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428105807.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428105807.png)
 
 ###### 创建索引，自取名字(比如说blog)
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428105843.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428105843.png)
 
 ###### 点击侧栏 `API Keys`，记录信息(Application ID, Search-Only API Key, Admin API Key)
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428105855.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428105855.png)
 
 ##### 本地生成Algolia索引文件
 
@@ -91,13 +91,13 @@ Algolia的站内搜索实现也很简单，一起看看罢！
 
 点击侧栏 `Indices` ，点击 `Upload record(s)` 按钮上传上一步生成的 `algolia.json` 文件。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428110248.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428110248.png)
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428110433.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428110433.png)
 
 上传成功之后，我们就可以马上尝试搜索了：
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428110742.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428110742.png)
 
 #### 自动上传
 
@@ -142,7 +142,7 @@ ALGOLIA_ADMIN_KEY=你的Admin API Key
 
 嗯，说过了尽量不要把这些推上去，所以我们可以在Travis CI里添加变量，如图。
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428120209.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428120209.png)
 
 然后把`.env`修改一下：
 
@@ -159,7 +159,7 @@ ALGOLIA_ADMIN_KEY=${ALGOLIA_ADMIN_KEY}
 
 你可以本地执行 `npm run algolia` 查看运行效果：
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428111122.png)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428111122.png)
 
 可以看到我们成功添加了记录。
 
@@ -222,7 +222,7 @@ npm run algolia // 在hugo命令后面执行
 
 好辣，那么我们的站内搜索就完成了！撒花~🎉🎉🎉
 
-![](https://cdn.jsdelivr.net/gh/FFRaycoder/cdn/imgs/20200428112156.gif)
+![](https://gitee.com/RACD/cdn/raw/master/imgs/20200428112156.gif)
 
 ---
 
