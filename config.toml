@@ -74,9 +74,13 @@ paginate = 15
         name = "留言板"
         weight = 4
     [[menu.main]]
+        url = "/shuoshuo/"
+        name = "说说"
+        weight = 5
+    [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 5
+        weight = 6
 
 # Pinned Pages
 [[params.pinned]]
