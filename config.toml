@@ -177,7 +177,7 @@ paginate = 15
     # 站点信息
 
     # 站点的 LOGO
-    siteLogo = "https://gitee.com/RACD/cdn/raw/master/imgs/20200509175026.png"
+    siteLogo = "/favicon.ico"
 
     # 站点描述
     siteDescription = "Ray's Blog-夜晚再黑，也压不过雪的白！"
