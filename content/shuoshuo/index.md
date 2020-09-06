@@ -9,7 +9,7 @@ slug: ""
 ---
 
 <div id="artitalk_main"></div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/artitalk"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/artitalk@3"></script>
 <script>
 new Artitalk({
   appId: 'OC4rT8CHhRa2ImNyEprSgyFi-MdYXbMMI',
