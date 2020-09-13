@@ -6,7 +6,7 @@ keywords: ['Vue', 'Vue问题', '前端', '{ __ob__: Observer }']
 categories: ['前端', 'Vue']
 tags: ['前端', 'Vue', 'Vue问题']
 slug: "vue-ob-observer-problem"
-categoryLink: "/"
+categoryLink: ""
 toc: true
 comments: true
 buy: false

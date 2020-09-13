@@ -6,7 +6,7 @@ keywords: ["Vue", "Vue3", "前端"]
 categories: ["前端", "Vue"]
 tags: ["前端", "Vue", "Vue3"]
 slug: "vue3-design"
-categoryLink: "/"
+categoryLink: ""
 toc: true
 comments: true
 buy: false

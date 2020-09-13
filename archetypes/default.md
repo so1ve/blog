@@ -6,7 +6,7 @@ keywords: []
 categories: []
 tags: []
 slug: ""
-categoryLink: "/"
+categoryLink: ""
 toc: true
 comments: true
 buy: false
