@@ -19,7 +19,9 @@ buyButtonText: ""
 
 > **写作不易，资瓷一下呗！本文首发于个人博客：<https://raycoder.me>**
 
-在Vue的开发中，我们经常有异步获取数据的情况，在没有数据的时候使用骨架装载器占位，比如（[LeanBook](https://github.com/FFRaycoder/leanbook/blob/master/src/views/Home.vue#L51)）：
+在Vue的开发中，我们经常有异步获取数据的情况，在没有数据的时候使用骨架装载器（`Skeleton Loader`，直译）占位，比如：
+
+<!--more-->
 
 ```html
 <template>
@@ -68,11 +70,14 @@ buyButtonText: ""
 
 `Skeleton Loader`没显示啊！
 
-咦，啥情况？！我们来打印一下`books`：
+我们来打印一下`books`：
 
-![](https://s1.ax1x.com/2020/08/21/dYEIrF.png)
+```js
+> console.log(this.books)
+< { __ob__: Observer }
+```
 
-好吧，原来Vue为了监视数值的变化加了一个`Observer`……
+好吧，原来Vue为了监视数值的变化加了一个`Observer`，这会导致判断出来“数组有值”。
 
 那么我们就有思路了，用`JSON.stringify`来监测这个数组是不是空数组。
 
