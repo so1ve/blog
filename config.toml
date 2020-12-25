@@ -177,7 +177,7 @@ paginate = 15
     # 站点信息
 
     # 站点的 LOGO
-    siteLogo = "/favicon.ico"
+    siteLogo = "/favicon.png"
 
     # 站点描述
     siteDescription = "Ray's Blog-夜晚再黑，也压不过雪的白！"
