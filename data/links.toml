@@ -215,12 +215,6 @@
     bio = "我们都想不一样."
 
 [[links]]
-    name = "萌新的BLOG"
-    image = "https://cdn.jsdelivr.net/gh/Mengxin001/CDN/Head.jpg"
-    link = "https://www.moex.club"
-    bio = "Live your life with passion!"
-
-[[links]]
     name = "闻鸡起舞"
     image = "https://hexo.yuanjh.cn/images_out/logo.jpeg"
     link = "https://hexo.yuanjh.cn"
