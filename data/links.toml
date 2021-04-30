@@ -11,12 +11,6 @@
     bio = "物联网应用开发、Android应用开发、Web前端开发技术"
 
 [[links]]
-    name = "Leaface"
-    image = "https://www.liaofuzhan.com/images/beichen.png"
-    link = "https://www.liaofuzhan.com"
-    bio = "Stay Hungry Stay Foolish"
-
-[[links]]
     name = "John Xu的博客"
     image = "https://hasaik.com/images/avatar.jpg"
     link = "https://hasaik.com"
@@ -95,12 +89,6 @@
     bio = "救赎之道，就在其中"
 
 [[links]]
-    name = "Hwt博客"
-    image = "https://www.hwt.ink/favicon.ico"
-    link = "https://www.hwt.ink"
-    bio = "全站Pjax。Hwt博客是一个记录编程心得、分享资源工具、交流编程技术思想的网站，这里有程序员的生活点滴以及程序员对编程、对生活的热爱！"
-
-[[links]]
     name = "jcjyxjs"
     image = "https://cdn.jsdelivr.net/gh/jcjyxjs/cdn@master/tx/1.jpg"
     link = "https://elstec.cn"
@@ -149,12 +137,6 @@
     bio = "OIER"
 
 [[links]]
-    name = "Eltrac’s Word"
-    image = "https://eltrac.cn-bj.ufileos.com/other/logo.png"
-    link = "https://www.eltrac.cn/"
-    bio = "Waiting for someone, or waiting for a story."
-
-[[links]]
     name = "Gatsby"
     image = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/avatar.gif"
     link = "https://gatsby.fun/"
@@ -197,22 +179,10 @@
     bio = "#蒟蒻 #算法"
 
 [[links]]
-    name = "AngelNI"
-    image = "https://angelni.github.io/AngelNI.github.io/img/avatar.png"
-    link = "https://angelni.github.io"
-    bio = "愿我们能和最好的自己相遇"
-
-[[links]]
     name = "夏·祈·楓"
     image = "https://cdn.jsdelivr.net/gh/Natsuki-Kaede/Blog-Resources/img/avatar.png"
     link = "https://flymc.cc"
     bio = "Zaphkiel,Zayin!"
-
-[[links]]
-    name = "Mulsd的茶屋"
-    image = "https://cdn.jsdelivr.net/gh/Mulsd/cdn@1.9/new/g.png"
-    link = "https://mulsd.xyz"
-    bio = "我们都想不一样."
 
 [[links]]
     name = "闻鸡起舞"
