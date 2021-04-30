@@ -60,7 +60,7 @@
 
 [[links]]
     name = "Jitwxs 的博客"
-    image = "https://www.jitwxs.cn/img/avatar.jpg"
+    image = "https://cdn.jsdelivr.net/gh/jitwxs/cdn/blog/configuration/avatar.jpg"
     link = "https://www.jitwxs.cn"
     bio = "专注 Java 后端开发，内容涵盖 SpringBoot、并发编程、微服务、容器化、Linux 等技术分享。"
 
