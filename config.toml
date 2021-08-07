@@ -237,7 +237,7 @@ paginate = 15
     #      的优先级高于此处
 
     ## Valine
-    enableValine = true
+    enableValine = false
     valineVersion = "latest"
     valineAppId = "e2T8oJJTuQE1A2aE6Wu7wD8p-MdYXbMMI"
     valineAppKey = "CJOMWxWOTPQ8WLGolGAqi6wz"
@@ -257,6 +257,10 @@ paginate = 15
     valineEnableQQ = false
     valineRequiredFields = ["nick", "mail"]
     # 说明：https://valine.js.org/
+
+    ## Waline
+    enableWaline = true
+    walineServerURL = "https://rwl.vercel.app"
 
     ######################################
     # Google Analytics
