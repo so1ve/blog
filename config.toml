@@ -261,6 +261,7 @@ paginate = 15
     ## Waline
     enableWaline = true
     walineServerURL = "https://rwl.vercel.app"
+    walineLogin = "force"
 
     ######################################
     # Google Analytics
