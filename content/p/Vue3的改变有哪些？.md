@@ -18,7 +18,6 @@ buyButtonText: ""
 ---
 
 > **写作不易，资瓷一下呗！本文首发于个人博客：<https://raycoder.me>**
->
 
 ### 咕了这么久，我干了什么？
 
@@ -30,11 +29,11 @@ buyButtonText: ""
 
 ### 为什么关注`Vue3`？
 
-不巧的是，我刚刚掌握`Vue2`的时候，`Vue3.0`RC🤢🤔
+`Vue3.0`RC🤢🤔
 
 ### 正文开始
 
-（`Vue3`英文文档：<https://v3.vuejs.org>）
+（`Vue3`英文文档：<https://v3.vuejs.org>，中文：<https://v3.cn.vuejs.org>）
 
 #### Vue3重写原因？
 
@@ -177,5 +176,5 @@ Q.是不是`Vue3`就不能使用选项API了？
 
 A.可以用，这是两个并存的API。
 
-推荐视频：<https://www.bilibili.com/video/BV1ke411W7WB/?spm_id_from=333.788.videocard.6>
+推荐视频：<https://www.bilibili.com/video/BV1ke411W7WB/>
 
