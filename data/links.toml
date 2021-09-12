@@ -46,11 +46,11 @@
     link = "https://yuzhouwan.com"
     bio = "主要是大数据和人工智能的原创文章"
 
-[[links]]
-    name = "Steven_MengのBlog"
-    image = "https://cdn.jsdelivr.net/gh/GaisaiYuno/imghost/20200124153036.PNG"
-    link = "https://stevenmhy.tk"
-    bio = "蒟蒻，二次元"
+# [[links]]
+#     name = "Steven_MengのBlog"
+#     image = "https://cdn.jsdelivr.net/gh/GaisaiYuno/imghost/20200124153036.PNG"
+#     link = "https://stevenmhy.tk"
+#     bio = "蒟蒻，二次元"
 
 [[links]]
     name = "没有人"
@@ -196,11 +196,11 @@
     link = "https://ditou.org"
     bio = "（没有留下，喵！）"
 
-[[links]]
-    name = "Flexiston"
-    image = "https://cdn.jsdelivr.net/gh/Flexiston/CDN/img/avatar.png"
-    link = "https://www.flesx.cn"
-    bio = "长风破浪会有时，直挂云帆济沧海"
+# [[links]]
+#     name = "Flexiston"
+#     image = "https://cdn.jsdelivr.net/gh/Flexiston/CDN/img/avatar.png"
+#     link = "https://www.flesx.cn"
+#     bio = "长风破浪会有时，直挂云帆济沧海"
 
 [[links]]
     name = "AomanHao"
