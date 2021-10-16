@@ -65,12 +65,6 @@
     bio = "专注 Java 后端开发，内容涵盖 SpringBoot、并发编程、微服务、容器化、Linux 等技术分享。"
 
 [[links]]
-    name = "Memory的个人博客"
-    image = "/link-images/memory.jpg"
-    link = "https://memory6181.top"
-    bio = "槐枝啼宿鸟，冷烟浓"
-
-[[links]]
     name = "单林敏"
     image = "https://www.wolfdan.cn/images/avatar.jpg"
     link = "https://www.wolfdan.cn"
@@ -137,12 +131,6 @@
     bio = "OIER"
 
 [[links]]
-    name = "Gatsby"
-    image = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/avatar.gif"
-    link = "https://gatsby.fun/"
-    bio = "You see, I’m Gatsby."
-
-[[links]]
     name = "JokerM's Palace"
     image = "https://cdn.jokerm.com/?/imgcdn/logo.png"
     link = "https://jokerm.com/"
@@ -173,9 +161,9 @@
     bio = "为每天多博学一点而奋斗"
 
 [[links]]
-    name = "三级的蒟蒻的博客"
+    name = "chihuo2104の部落格"
     image = "https://cdn.jsdelivr.net/gh/chihuo2104/cdn/image/blog-style/avatar.jpg"
-    link = "https://moekonnyaku.com"
+    link = "https://blog.chihuo2104.dev/"
     bio = "#蒟蒻 #算法"
 
 [[links]]
