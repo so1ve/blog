@@ -31,10 +31,9 @@ comments: true
 ### 如何捕捉博主？
 
 ```js
-var contact = {
-    "QQ": 1215926530,
+const contact = {
     "GitHub": function () {
-        window.open('https://github.com/FFRaycoder');
+        window.open('https://github.com/so1ve');
     },
     "E-Mail": () => {
         window.open('mailto:ray@raycoder.me');
