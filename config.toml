@@ -260,7 +260,7 @@ paginate = 15
 
     ## Waline
     enableWaline = true
-    walineServerURL = "https://rwl.vercel.app"
+    walineServerURL = "https://n.raycoder.me"
     walineLogin = "force"
 
     ######################################
