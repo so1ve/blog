@@ -32,9 +32,13 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
 
       - name: Build site
-        run: hugo --minify
+        run: |
+          git config --global core.quotePath false
+          hugo --gc --minify --cleanDestinationDir
+          gulp build
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
