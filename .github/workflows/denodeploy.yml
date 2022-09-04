@@ -28,6 +28,11 @@ jobs:
           submodules: true # Fetch Hugo themes (true or recursive)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
